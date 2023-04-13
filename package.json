@@ -1,23 +1,35 @@
 {
-  "name": "project",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@types/node": "18.15.11",
-    "@types/react": "18.0.35",
-    "@types/react-dom": "18.0.11",
-    "next": "13.3.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.4"
-  },
-  "devDependencies": {
-    "sass": "^1.62.0"
-  }
+	"name": "project",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"sb": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
+	"dependencies": {
+		"@types/node": "18.15.11",
+		"@types/react": "18.0.35",
+		"@types/react-dom": "18.0.11",
+		"next": "13.3.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"typescript": "5.0.4"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.21.4",
+		"@storybook/addon-essentials": "^7.0.4",
+		"@storybook/addon-interactions": "^7.0.4",
+		"@storybook/addon-links": "^7.0.4",
+		"@storybook/blocks": "^7.0.4",
+		"@storybook/nextjs": "^7.0.4",
+		"@storybook/preset-create-react-app": "^7.0.4",
+		"@storybook/react": "^7.0.4",
+		"@storybook/testing-library": "^0.0.14-next.2",
+		"sass": "^1.62.0",
+		"storybook": "^7.0.4"
+	}
 }
