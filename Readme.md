@@ -1,7 +1,3 @@
-<style>
-	b {color: blue}
-</style>
-
 # Содержание
 
 ### [1. CSS](#css)
